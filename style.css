@@ -2,12 +2,12 @@
 
 :root {
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --cor-de-fundo: #380058;
+    --fundo-senha: #440c75;
+    --fundo-texto: #7a50a3;
+    --borda: #a498b7;
     --ubuntu: "Ubuntu", sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
+    --ubuntu: 'Ubuntu', monospace;
 }
 
 * {
@@ -17,11 +17,11 @@
 body {
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
+    font-family: var(--ubuntu);
 }
 
 .titulo-principal {
-    font-family: var(--roboto-mono);
+    font-family: var(--ubuntu);
     font-size: 32px;
 }
 
@@ -132,16 +132,16 @@ label {
 
 .fraca {
     width: 25%;
-    background-color: #E71B32;
+    background-color: #a02332;
 }
 
 .media {
-    background-color: #FAF408;
+    background-color: #f1ef50;
     width: 50%;
 }
 
 .forte {
-    background-color: #00FF85;
+    background-color: #56e86a;
     width: 100%;
 }
 
